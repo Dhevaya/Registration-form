@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-YiiSIFeK1dGmJRAkycuHAHRg320mUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-mod-3"></div>
+
+            </div>
+            <div class="col-mod-3">
+                <form action="/sign_up" method="POST">
+                <div class="wrappper">
+                    <h2  style="text-align:center">Registration Form</h2>
+                    <div class="input-box">
+                    <input type="text" class="box" id="name" name="name" placeholder="Name" required/>
+                    <br><br>
+                    </div>
+                    <div class="input-box">
+                    <input type="number" class="box" id="age" name="age" placeholder="age" required/>
+                    <br><br>
+                    </div>
+                    <div class="input-box">
+                    <input type="email" class="box" id="email" name="email" placeholder="email" required/>
+                    <br><br>
+                    </div>
+                    <div class="input-box">
+                    <input type="number" class="box" id="phno" name="phno" placeholder="Phone no." required/>
+                    <br><br>
+                    </div>
+                    <div class="input-box">
+                    <input type="text" class="box" id="gender" name="gender" placeholder="gender" required/>
+                    <br><br>
+                    </div>
+                    <div class="input-box">
+                    <input type="password" class="box" id="password" name="password" placeholder="password" required/>
+                    <br><br>
+                    </div>
+                    <input type="submit" value="Submit" id="submit"/>
+                    <br>
+                </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
